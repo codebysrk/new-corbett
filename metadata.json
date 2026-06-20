@@ -1,0 +1,6 @@
+{
+  "name": "Corbett Treat Resort",
+  "description": "Corbett Treat Resort is a luxury jungle retreat located in Village Dhela near Jim Corbett National Park, Ramnagar, Uttarakhand. Surrounded by lush greenery and wildlife, the resort offers premium accommodations, swimming pool, multi-cuisine dining, jungle safari experiences, destination weddings, corporate retreats, and unforgettable nature getaways.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

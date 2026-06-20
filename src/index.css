@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  
+  /* Geometric Balance Color Palette - Golden accents, clean off-white cream, soft clays, charcoal */
+  --color-gold-50: #FAF9F6;
+  --color-gold-100: #F2EFE9;
+  --color-gold-200: #E8E4DF;
+  --color-gold-300: #D9D1C5;
+  --color-gold-400: #C5A059; /* Core luxury theme gold */
+  --color-gold-500: #B38E48; /* Darker gold for interaction hovers */
+  --color-gold-600: #8C8376; /* Accent details text */
+  --color-gold-700: #787268; /* Description body text */
+  --color-gold-800: #4A453F; /* Secondary deep neutral */
+  --color-gold-900: #232323; /* Crisp dark charcoal elements */
+  
+  --color-luxury-charcoal: #232323;
+  --color-luxury-cream: #FAF9F6;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-luxury-cream);
+    color: var(--color-luxury-charcoal);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom transitions and scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f5f0e6;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbb288;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b0915f;
+}
+
